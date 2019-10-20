@@ -54,7 +54,7 @@ class App extends Component {
       <StationList stations={filteredStations} />
       <div className='map-container' style={{width: '900px', height: '100vh'}}>
         <Map 
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyD-Hz57F4swa9MbqKLUFqCp2MNa3BuyF34`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=`}
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `400px` }} />}
           mapElement={<div style={{ height: `100%` }} />}
